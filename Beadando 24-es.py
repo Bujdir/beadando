@@ -14,7 +14,7 @@ def vissza(num,bazis):
         hatvanye+=1
     index/=bazis
     megoldas=""
-    for i in range(hatvanyertek):
+    for i in range(hatvanye):
         helyiertek=0
         while index<=num:
             num-=index
